@@ -76,6 +76,9 @@ export default {
     getLegend(groupId, iconWidth, iconHeight) {
       return this.graph2d.getLegend(groupId, iconWidth, iconHeight);
     },
+    getWindow() {
+      return this.graph2d.getWindow();
+    },
     isGroupVisible(groupId) {
       return this.graph2d.isGroupVisible(groupId);
     },
